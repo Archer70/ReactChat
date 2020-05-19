@@ -1,0 +1,12 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: var(--space);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.is-server {
+    font-style: italic;
+    background-color: #faebd7;
+}

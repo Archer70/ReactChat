@@ -1,0 +1,27 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.messages {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    bottom: 60px;
+    left: 0;
+    overflow: auto;
+}
+
+.input-section {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 60px;
+    padding: 0 var(--space);
+    background: var(--color-dark);
+}

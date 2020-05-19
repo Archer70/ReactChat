@@ -1,0 +1,14 @@
+{
+  "name": "react-chat",
+  "version": "1.0.0",
+  "description": "Basic react chat, just for the heck of it.",
+  "main": "index.js",
+  "author": "Scotty Christianson <code.archer70@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
